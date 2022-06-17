@@ -22,8 +22,8 @@ df.printSchema()
 # df.printSchema()
 # df.show()
 
-# df.filter(df["country"] == "france") \ # only french stations
-#   .groupBy("station_id") \ # by station
+# df.filter(df["Meninggal Dunia Harian"] == "19-Jul") 
+#   .groupBy("") \ # by station
 #   .agg(mean("temperature").alias("average_temp")) \ # calculate average
 #   .orderBy(desc("average_temp")) \ # order by average 
 #   .take(100) # return first 100 rows
