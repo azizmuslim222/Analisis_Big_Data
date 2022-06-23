@@ -1,0 +1,44 @@
+{
+    "connection": {
+        "dialect": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "db": "rs_islami",
+        "user": "root",
+        "password": "zxasqw12"
+    },
+    "map": {
+        "patient": {
+            "identifier": [{
+                "tableName": "patients",
+                "fieldName": "id"
+            }],
+            "name": [{
+                "tableName": "patients",
+                "fieldName": "lname"
+            }],
+            "telecom": [{
+                "tableName": "patients",
+                "fieldName": "contact"
+            }],
+            "gender": {
+                "tableName": "patients",
+                "fieldName": "gender"
+            },
+            "birthDate": null,
+            "deceasedDateTime": null,
+            "address": [{
+                "tableName": "patients",
+                "fieldName": "address"
+            }],
+            "maritalStatus": null,
+            "multipleBirthInteger": null,
+            "photo": [],
+            "contact": [],
+            "communication": [],
+            "generalPractitioner": [],
+            "managingOrganization": [],
+            "link": []
+        }
+    }
+}

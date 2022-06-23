@@ -1,0 +1,54 @@
+{
+    "connection": {
+        "dialect": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "db": "rs_sakinah",
+        "user": "root",
+        "password": "zxasqw12"
+    },
+    "map": {
+        "patient": {
+            "identifier": [{
+                    "tableName": "patients",
+                    "fieldName": "id",
+                    "use": "usual"
+                },
+                {
+                    "tableName": "patients",
+                    "fieldName": "record_no",
+                    "use": "secondary"
+                }
+            ],
+            "name": [{
+                "tableName": "patients",
+                "fieldName": "full_name"
+            }],
+            "telecom": [{
+                "tableName": "patients",
+                "fieldName": "contact"
+            }],
+            "gender": {
+                "tableName": "patients",
+                "fieldName": "gender"
+            },
+            "birthDate": {
+                "tableName": "patients",
+                "fieldName": "birth_date"
+            },
+            "deceasedDateTime": null,
+            "address": [{
+                "tableName": "patients",
+                "fieldName": "address"
+            }],
+            "maritalStatus": null,
+            "multipleBirthInteger": null,
+            "photo": [],
+            "contact": [],
+            "communication": [],
+            "generalPractitioner": [],
+            "managingOrganization": [],
+            "link": []
+        }
+    }
+}
